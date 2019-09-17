@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "5c06de057e7d3bdc4923861dc11e9f4e",
+    "content-hash": "e3f8d2ad2649d6638d43d1a521bab2aa",
     "packages": [
         {
             "name": "advanced-custom-fields/advanced-custom-fields-pro",
@@ -294,8 +294,8 @@
             "authors": [
                 {
                     "name": "Onni Hakala",
-                    "role": "Developer",
-                    "email": "onni@koodimonni.fi"
+                    "email": "onni@koodimonni.fi",
+                    "role": "Developer"
                 }
             ],
             "description": "Install packages or a few files from packages into custom paths without overwriting existing stuff.",
@@ -808,6 +808,24 @@
             },
             "type": "wordpress-plugin",
             "homepage": "https://wordpress.org/plugins/loginizer/"
+        },
+        {
+            "name": "wpackagist-plugin/mw-wp-form",
+            "version": "4.1.2",
+            "source": {
+                "type": "svn",
+                "url": "https://plugins.svn.wordpress.org/mw-wp-form/",
+                "reference": "tags/4.1.2"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://downloads.wordpress.org/plugin/mw-wp-form.4.1.2.zip"
+            },
+            "require": {
+                "composer/installers": "~1.0"
+            },
+            "type": "wordpress-plugin",
+            "homepage": "https://wordpress.org/plugins/mw-wp-form/"
         },
         {
             "name": "wpackagist-plugin/wordpress-importer",
