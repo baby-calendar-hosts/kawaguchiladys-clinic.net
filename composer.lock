@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "e3f8d2ad2649d6638d43d1a521bab2aa",
+    "content-hash": "e3e1765fbba0dd38052fbb82114fe49a",
     "packages": [
         {
             "name": "advanced-custom-fields/advanced-custom-fields-pro",
@@ -738,6 +738,24 @@
             "homepage": "https://wordpress.org/plugins/breadcrumb-navxt/"
         },
         {
+            "name": "wpackagist-plugin/browser-shots",
+            "version": "1.7.4",
+            "source": {
+                "type": "svn",
+                "url": "https://plugins.svn.wordpress.org/browser-shots/",
+                "reference": "trunk"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://downloads.wordpress.org/plugin/browser-shots.zip?timestamp=1563193552"
+            },
+            "require": {
+                "composer/installers": "~1.0"
+            },
+            "type": "wordpress-plugin",
+            "homepage": "https://wordpress.org/plugins/browser-shots/"
+        },
+        {
             "name": "wpackagist-plugin/custom-post-type-permalinks",
             "version": "3.3.1",
             "source": {
@@ -792,6 +810,24 @@
             "homepage": "https://wordpress.org/plugins/google-sitemap-generator/"
         },
         {
+            "name": "wpackagist-plugin/intuitive-custom-post-order",
+            "version": "3.1.2",
+            "source": {
+                "type": "svn",
+                "url": "https://plugins.svn.wordpress.org/intuitive-custom-post-order/",
+                "reference": "tags/3.1.2"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://downloads.wordpress.org/plugin/intuitive-custom-post-order.3.1.2.zip"
+            },
+            "require": {
+                "composer/installers": "~1.0"
+            },
+            "type": "wordpress-plugin",
+            "homepage": "https://wordpress.org/plugins/intuitive-custom-post-order/"
+        },
+        {
             "name": "wpackagist-plugin/loginizer",
             "version": "1.4.2",
             "source": {
@@ -826,6 +862,24 @@
             },
             "type": "wordpress-plugin",
             "homepage": "https://wordpress.org/plugins/mw-wp-form/"
+        },
+        {
+            "name": "wpackagist-plugin/my-calendar",
+            "version": "3.1.14",
+            "source": {
+                "type": "svn",
+                "url": "https://plugins.svn.wordpress.org/my-calendar/",
+                "reference": "tags/3.1.14"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://downloads.wordpress.org/plugin/my-calendar.3.1.14.zip"
+            },
+            "require": {
+                "composer/installers": "~1.0"
+            },
+            "type": "wordpress-plugin",
+            "homepage": "https://wordpress.org/plugins/my-calendar/"
         },
         {
             "name": "wpackagist-plugin/wordpress-importer",
