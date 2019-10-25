@@ -221,11 +221,7 @@
     "wpackagist-plugin/wp-dashboard-notes": "*",
     "wpackagist-plugin/wp-mail-smtp": "*",
     "wpackagist-plugin/wp-multibyte-patch": "*",
-    "wpackagist-plugin/wp-super-cache": "*",
-    "wpackagist-plugin/mw-wp-form": "*",
-    "wpackagist-plugin/browser-shots": "*",
-    "wpackagist-plugin/intuitive-custom-post-order": "*",
-    "wpackagist-plugin/my-calendar": "*"
+    "wpackagist-plugin/wp-super-cache": "*"
   },
   "require-dev": {
     "squizlabs/php_codesniffer": "^3.4.2",
