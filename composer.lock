@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "d1070ac35ac1db5e7694e265319cbe6c",
+    "content-hash": "a7fad0d5547ae4b3b05c70a6bd7d989a",
     "packages": [
         {
             "name": "advanced-custom-fields/advanced-custom-fields-pro",
@@ -315,6 +315,15 @@
                 "type": "zip",
                 "url": "https://downloads.wordpress.org/translation/plugin/mw-wp-form/4.1.2/ja.zip",
                 "reference": "master"
+            },
+            "type": "wordpress-language"
+        },
+        {
+            "name": "koodimonni-plugin-language/my-calendar-ja",
+            "version": "2.5.17",
+            "dist": {
+                "type": "zip",
+                "url": "https://downloads.wordpress.org/translation/plugin/my-calendar/2.5.17/ja.zip"
             },
             "type": "wordpress-language"
         },
