@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "0dde6c9801977c00d5aa7cfd38c0529b",
+    "content-hash": "c9ec7a9ea13b8b89b2ec99bb5dbecb6d",
     "packages": [
         {
             "name": "advanced-custom-fields/advanced-custom-fields-pro",
@@ -965,6 +965,24 @@
             },
             "type": "wordpress-plugin",
             "homepage": "https://wordpress.org/plugins/custom-post-type-ui/"
+        },
+        {
+            "name": "wpackagist-plugin/duplicate-post",
+            "version": "3.2.4",
+            "source": {
+                "type": "svn",
+                "url": "https://plugins.svn.wordpress.org/duplicate-post/",
+                "reference": "tags/3.2.4"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://downloads.wordpress.org/plugin/duplicate-post.3.2.4.zip"
+            },
+            "require": {
+                "composer/installers": "~1.0"
+            },
+            "type": "wordpress-plugin",
+            "homepage": "https://wordpress.org/plugins/duplicate-post/"
         },
         {
             "name": "wpackagist-plugin/google-sitemap-generator",
