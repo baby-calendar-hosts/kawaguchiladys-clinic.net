@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "28de4baf7710760b0251c76938afd271",
+    "content-hash": "a441bf456c26fd2fd6237bcd30e84acd",
     "packages": [
         {
             "name": "advanced-custom-fields/advanced-custom-fields-pro",
@@ -1101,6 +1101,24 @@
             },
             "type": "wordpress-plugin",
             "homepage": "https://wordpress.org/plugins/my-calendar/"
+        },
+        {
+            "name": "wpackagist-plugin/tablepress",
+            "version": "1.11",
+            "source": {
+                "type": "svn",
+                "url": "https://plugins.svn.wordpress.org/tablepress/",
+                "reference": "tags/1.11"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://downloads.wordpress.org/plugin/tablepress.1.11.zip"
+            },
+            "require": {
+                "composer/installers": "~1.0"
+            },
+            "type": "wordpress-plugin",
+            "homepage": "https://wordpress.org/plugins/tablepress/"
         },
         {
             "name": "wpackagist-plugin/wordpress-importer",

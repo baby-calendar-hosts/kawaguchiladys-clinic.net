@@ -236,6 +236,7 @@
     "wpackagist-plugin/loginizer": "*",
     "wpackagist-plugin/mw-wp-form": "*",
     "wpackagist-plugin/my-calendar": "*",
+    "wpackagist-plugin/tablepress": "*",
     "wpackagist-plugin/wordpress-importer": "*",
     "wpackagist-plugin/wp-dashboard-notes": "*",
     "wpackagist-plugin/wp-mail-smtp": "*",
