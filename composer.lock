@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "3d2f164335674171ecae1b7774e31071",
+    "content-hash": "0a65f9eefa4df13b78e7db918ff4a87b",
     "packages": [
         {
             "name": "advanced-custom-fields/advanced-custom-fields-pro",
@@ -1106,6 +1106,24 @@
             "homepage": "https://wordpress.org/plugins/my-calendar/"
         },
         {
+            "name": "wpackagist-plugin/seo-simple-pack",
+            "version": "1.2.7",
+            "source": {
+                "type": "svn",
+                "url": "https://plugins.svn.wordpress.org/seo-simple-pack/",
+                "reference": "tags/1.2.7"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://downloads.wordpress.org/plugin/seo-simple-pack.1.2.7.zip"
+            },
+            "require": {
+                "composer/installers": "~1.0"
+            },
+            "type": "wordpress-plugin",
+            "homepage": "https://wordpress.org/plugins/seo-simple-pack/"
+        },
+        {
             "name": "wpackagist-plugin/tablepress",
             "version": "1.11",
             "source": {
@@ -1569,7 +1587,7 @@
     },
     "platform-dev": [],
     "platform-overrides": {
-        "php": "7.3.14"
+        "php": "7.3.19"
     },
     "plugin-api-version": "1.1.0"
 }
